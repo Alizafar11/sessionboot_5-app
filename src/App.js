@@ -17,5 +17,4 @@ function App() {
     </CounterContext.Provider>
   );
 }
-
 export default App;

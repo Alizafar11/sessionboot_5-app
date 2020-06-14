@@ -5,10 +5,10 @@ import counterContext from './CounterContext';
 const Child = () => {
 
     let counterValue = useContext(counterContext)
-    console.log(counterValue)
+    
     return (
         <div>
-            <h2>this is first child</h2>
+            <h2>this is first child using context</h2>
             <h4> counter value is : {counterValue[0]}</h4>
 
             <button onClick={()=>{counterValue[1](++counterValue[0])}}> Increament </button>
