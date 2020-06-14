@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
 import Parent from './Parent';
+import CounterContext from './CounterContext';
 
 
 function App() {
   return (
-    <div >
+    <CounterContext.Provider value={30}>
 
-      <Parent name="Ali zafar"/>
-
-    </div>
+      <div >
+        <Parent />   
+      </div>
+    </CounterContext.Provider>
   );
 }
 
