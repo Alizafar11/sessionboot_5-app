@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
 
-      <Parent />
+      <Parent name="Ali zafar"/>
 
     </div>
   );
